@@ -1,7 +1,7 @@
 @echo off
 Echo Script to automate Wallpaper copy, with naming the file!
-set SPATH=C:\Users\Prathyush\AppData\Local\WallpapersWide.com\DesktopSlides\2.1.1.0
-set DPATH=C:\Users\Prathyush\Desktop\Wallpapers
+set SPATH=C:\..\... rem "Set the Source path "
+set DPATH=C:\..\... rem "Set the Destination path "
 
 
 cd %SPATH%
