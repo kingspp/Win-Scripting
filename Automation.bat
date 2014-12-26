@@ -31,6 +31,13 @@ start /w  epm.exe /SILENT /LOG="E:/filename.log"
 ::FileZilla
 start /w  FileZilla.exe /S 
 
+::fing 2.2
+start /w fing.exe /S
+
+::Github
+start /w Github.exe /S
+
+
 ::JDK
 ::jdk-7u51
 ::Path set remaining
@@ -50,9 +57,16 @@ start /w  npp.exe /S
 ::Ultra ISO9
 start /w  ultraiso9.exe /SILENT /LOG="E:/filename.log"
 
+::VLC 2.1.5
+start /w vlc.exe /S
+
+::Win32DiskImager
+start /w  Win32DiskImager.exe /SILENT /LOG="E:/filename.log"
+
 
 :begin
-start /w config.MSP /quiet
+
+
 
 
 
